@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
-// test
+// test .
 
 MainWindow::~MainWindow()
 {
