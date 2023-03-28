@@ -116,10 +116,10 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_3">
-     <item row="4" column="0">
-      <widget class="QCheckBox" name="checkBox_23">
+     <item row="3" column="0">
+      <widget class="QCheckBox" name="checkBox_2">
        <property name="text">
-        <string>Fish</string>
+        <string>Eggs</string>
        </property>
       </widget>
      </item>
@@ -127,6 +127,20 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <widget class="QCheckBox" name="checkBox_22">
        <property name="text">
         <string>Peanuts</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QCheckBox" name="checkBox_20">
+       <property name="text">
+        <string>Crustaceans</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QCheckBox" name="checkBox_19">
+       <property name="text">
+        <string>Tree Nuts</string>
        </property>
       </widget>
      </item>
@@ -144,13 +158,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </property>
       </widget>
      </item>
-     <item row="2" column="0">
-      <widget class="QCheckBox" name="checkBox_20">
-       <property name="text">
-        <string>Crustaceans</string>
-       </property>
-      </widget>
-     </item>
      <item row="5" column="0">
       <widget class="QCheckBox" name="checkBox_21">
        <property name="text">
@@ -158,17 +165,10 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </property>
       </widget>
      </item>
-     <item row="3" column="0">
-      <widget class="QCheckBox" name="checkBox_2">
+     <item row="4" column="0">
+      <widget class="QCheckBox" name="checkBox_23">
        <property name="text">
-        <string>Eggs</string>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="0">
-      <widget class="QCheckBox" name="checkBox_19">
-       <property name="text">
-        <string>Tree Nuts</string>
+        <string>Fish</string>
        </property>
       </widget>
      </item>
@@ -198,32 +198,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </property>
     <property name="text">
      <string>Ingredients Required</string>
-    </property>
-   </widget>
-   <widget class="QSlider" name="horizontalSlider">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>30</y>
-      <width>171</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>10</y>
-      <width>91</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Difficulty Level</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -373,6 +347,38 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </property>
     <property name="text">
      <string>Not Suitable for Vegetarians</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QSlider" name="horizontalSlider">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Difficulty Level</string>
     </property>
    </widget>
   </widget>

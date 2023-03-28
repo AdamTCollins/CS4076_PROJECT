@@ -19,6 +19,9 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        recipeconfirmation.cpp
+        recipeconfirmation.h
+        recipeconfirmation.ui
         ${TS_FILES}
 )
 
