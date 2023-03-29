@@ -19,24 +19,24 @@ C++ Criteria
 Virtual functions
 template classes
 Multiple inheritance
-namespaces
+namespaces - consumable class
 Programmer defined exceptions
 Unions
 Operator overloading
-Abstract classes
+Abstract classes - consumable class
 Copy constructors (deep , shallow copy)
 Bit structures
 Advanced pre-processor directives ✓
 C++ Object Construction Sequence
-Initializer List
+Initializer List - consumable class
 C++ References
-Pointers
-Inheritance
-Destructors
-Memory management
+Pointers ✓
+Inheritance - consumable class
+Destructors ✓
+Memory management ✓
 Header files (inclusion guards) ✓
 Arrays and pointers
-Friendship
+Friendship - maybe food and allergy class or seomthign
 Global variables
 Private, Public, Protected
 
