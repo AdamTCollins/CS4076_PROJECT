@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>684</width>
-    <height>417</height>
+    <height>460</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -117,35 +117,35 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </property>
     <layout class="QGridLayout" name="gridLayout_3">
      <item row="0" column="0">
-      <widget class="QCheckBox" name="checkBox_5">
+      <widget class="QCheckBox" name="checkBox_1">
        <property name="text">
         <string>Gluten</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QCheckBox" name="checkBox_23">
+      <widget class="QCheckBox" name="checkBox_3">
        <property name="text">
         <string>Fish</string>
        </property>
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QCheckBox" name="checkBox_21">
+      <widget class="QCheckBox" name="checkBox_4">
        <property name="text">
         <string>Eggs</string>
        </property>
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QCheckBox" name="checkBox_22">
+      <widget class="QCheckBox" name="checkBox_5">
        <property name="text">
         <string>Milk</string>
        </property>
       </widget>
      </item>
      <item row="5" column="0">
-      <widget class="QCheckBox" name="checkBox_19">
+      <widget class="QCheckBox" name="checkBox_6">
        <property name="text">
         <string>Almonds</string>
        </property>
@@ -236,42 +236,42 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </property>
     <layout class="QGridLayout" name="gridLayout_4">
      <item row="1" column="0">
-      <widget class="QCheckBox" name="checkBox_17">
+      <widget class="QCheckBox" name="checkBox_8">
        <property name="text">
         <string>Sugar</string>
        </property>
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QCheckBox" name="checkBox_28">
+      <widget class="QCheckBox" name="checkBox_11">
        <property name="text">
         <string>Milk</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QCheckBox" name="checkBox_14">
+      <widget class="QCheckBox" name="checkBox_9">
        <property name="text">
         <string>Butter</string>
        </property>
       </widget>
      </item>
      <item row="5" column="0">
-      <widget class="QCheckBox" name="checkBox_24">
+      <widget class="QCheckBox" name="checkBox_12">
        <property name="text">
         <string>Almonds</string>
        </property>
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QCheckBox" name="checkBox_26">
+      <widget class="QCheckBox" name="checkBox_10">
        <property name="text">
         <string>Eggs</string>
        </property>
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QCheckBox" name="checkBox_16">
+      <widget class="QCheckBox" name="checkBox_7">
        <property name="text">
         <string>Flour</string>
        </property>
@@ -354,6 +354,19 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </property>
     <property name="text">
      <string>Difficulty Level</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>370</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quit</string>
     </property>
    </widget>
   </widget>

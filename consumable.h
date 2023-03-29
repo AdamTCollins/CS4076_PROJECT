@@ -4,19 +4,31 @@
 
 using namespace std;
 
-// Consumable Class
+// Abstract Consumable Class
 class consumable
 {
 
 public:
-    consumable();
-    consumable(string name);
+    consumable(){
+        name = new string();
+    }
+
 
     // Pure Virtual Function
     virtual void getName() = 0;
 
-private:
-    string name;
+    // Copy Constructor
+    consumable(const consumable& copy){
+        name = new string();
+        *(this->name) = *(copy.name);
+    }
+    // Destructor
+    ~consumable(){
+        delete name;
+    }
+
+protected:
+    string* name; // inhertiable instance variable
 };
 
 

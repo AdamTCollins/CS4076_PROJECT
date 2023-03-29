@@ -16,28 +16,31 @@ QBoxLayout - Verticle / Horizontal layout ✓
 C++ Criteria
 -------------
 
-Virtual functions
-template classes
-Multiple inheritance
-namespaces - consumable class
-Programmer defined exceptions
-Unions
-Operator overloading
-Abstract classes - consumable class
-Copy constructors (deep , shallow copy)
-Bit structures
+Namespaces ✓
+Abstract classes ✓
 Advanced pre-processor directives ✓
-C++ Object Construction Sequence
-Initializer List - consumable class
-C++ References
 Pointers ✓
-Inheritance - consumable class
 Destructors ✓
 Memory management ✓
 Header files (inclusion guards) ✓
-Arrays and pointers
+Private, Public, Protected ✓
+
+
+
+Virtual functions
+Template classes
+Multiple inheritance
+Programmer defined exception
+Unions
+Operator overloading
+Copy constructors (deep , shallow copy)
+Bit structures
+C++ Object Construction Sequence
+Initializer List - consumable class
+C++ References
+Inheritance - consumable class
+Arrays and pointers ??
 Friendship - maybe food and allergy class or seomthign
 Global variables
-Private, Public, Protected
 
 */

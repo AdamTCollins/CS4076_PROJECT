@@ -3,7 +3,8 @@
 
 #include <QMenu>
 #include <QMainWindow>
-#include<QPushButton>
+#include <QPushButton>
+#include <QRadioButton>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,6 +21,11 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_radioButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_radioButton_2_clicked();
 
 private:
     Ui::MainWindow *ui;
