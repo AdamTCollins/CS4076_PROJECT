@@ -1,6 +1,7 @@
 #include "recipeconfirmation.h"
 #include "ui_recipeconfirmation.h"
 
+
 RecipeConfirmation::RecipeConfirmation(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::RecipeConfirmation)
@@ -8,9 +9,9 @@ RecipeConfirmation::RecipeConfirmation(QWidget *parent) :
     ui->setupUi(this);
 }
 
+// Destructor
 RecipeConfirmation::~RecipeConfirmation()
 {
-
     delete ui;
 }
 
@@ -18,6 +19,11 @@ RecipeConfirmation::RecipeConfirmation(QString recipeName) :
     ui(new Ui::RecipeConfirmation)
 {
     ui->setupUi(this);
-    ui->label->setText("Recipe: " + recipeName + " added to cookbook");
+    this->setWindowTitle("Recipe Confirmation");
+    ui->label->setText("Recipe '" + recipeName + "' added to Cookbook! :)");
+}
 
+void RecipeConfirmation::on_pushButton_clicked()
+{
+    this->close();
 }

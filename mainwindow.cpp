@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Adam's Recipe Creator");
 }
 
 MainWindow::~MainWindow()
@@ -20,6 +21,7 @@ void MainWindow::on_pushButton_clicked()
     RecipeConfirmation *popup = new RecipeConfirmation(ui->textEdit_2->toPlainText());
     popup->setModal(true);
     popup->exec();
-    delete popup;
+    delete popup; // Memory Management
+    ui->textEdit_2->clear();
 }
 

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>684</width>
-    <height>431</height>
+    <height>417</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -110,65 +110,51 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>79</y>
+      <y>99</y>
       <width>121</width>
-      <height>281</height>
+      <height>241</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_3">
-     <item row="3" column="0">
-      <widget class="QCheckBox" name="checkBox_2">
-       <property name="text">
-        <string>Eggs</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="0">
-      <widget class="QCheckBox" name="checkBox_22">
-       <property name="text">
-        <string>Peanuts</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QCheckBox" name="checkBox_20">
-       <property name="text">
-        <string>Crustaceans</string>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="0">
-      <widget class="QCheckBox" name="checkBox_19">
-       <property name="text">
-        <string>Tree Nuts</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
+     <item row="0" column="0">
       <widget class="QCheckBox" name="checkBox_5">
        <property name="text">
         <string>Gluten</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="0">
-      <widget class="QCheckBox" name="checkBox_3">
+     <item row="2" column="0">
+      <widget class="QCheckBox" name="checkBox_23">
        <property name="text">
-        <string>Celery</string>
+        <string>Fish</string>
        </property>
       </widget>
      </item>
-     <item row="5" column="0">
+     <item row="3" column="0">
       <widget class="QCheckBox" name="checkBox_21">
+       <property name="text">
+        <string>Eggs</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QCheckBox" name="checkBox_22">
        <property name="text">
         <string>Milk</string>
        </property>
       </widget>
      </item>
-     <item row="4" column="0">
-      <widget class="QCheckBox" name="checkBox_23">
+     <item row="5" column="0">
+      <widget class="QCheckBox" name="checkBox_19">
        <property name="text">
-        <string>Fish</string>
+        <string>Almonds</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="text">
+        <string>Peanuts</string>
        </property>
       </widget>
      </item>
@@ -178,7 +164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>60</y>
+      <y>80</y>
       <width>111</width>
       <height>20</height>
      </rect>
@@ -191,7 +177,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>60</y>
+      <y>80</y>
       <width>131</width>
       <height>20</height>
      </rect>
@@ -243,37 +229,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>80</y>
+      <y>100</y>
       <width>131</width>
-      <height>281</height>
+      <height>241</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_4">
-     <item row="7" column="0">
-      <widget class="QCheckBox" name="checkBox_25">
+     <item row="1" column="0">
+      <widget class="QCheckBox" name="checkBox_17">
        <property name="text">
-        <string>Garlic</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QCheckBox" name="checkBox_16">
-       <property name="text">
-        <string>Flour</string>
+        <string>Sugar</string>
        </property>
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QCheckBox" name="checkBox_15">
+      <widget class="QCheckBox" name="checkBox_28">
        <property name="text">
-        <string>Olive Oil</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="0">
-      <widget class="QCheckBox" name="checkBox_24">
-       <property name="text">
-        <string>Almonds</string>
+        <string>Milk</string>
        </property>
       </widget>
      </item>
@@ -284,24 +256,24 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </property>
       </widget>
      </item>
-     <item row="3" column="0">
-      <widget class="QCheckBox" name="checkBox_26">
+     <item row="5" column="0">
+      <widget class="QCheckBox" name="checkBox_24">
        <property name="text">
-        <string>Sugar</string>
+        <string>Almonds</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="0">
-      <widget class="QCheckBox" name="checkBox_17">
+     <item row="3" column="0">
+      <widget class="QCheckBox" name="checkBox_26">
        <property name="text">
         <string>Eggs</string>
        </property>
       </widget>
      </item>
-     <item row="5" column="0">
-      <widget class="QCheckBox" name="checkBox_28">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_16">
        <property name="text">
-        <string>Milk</string>
+        <string>Flour</string>
        </property>
       </widget>
      </item>
@@ -311,7 +283,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>10</y>
+      <y>20</y>
       <width>271</width>
       <height>41</height>
      </rect>
@@ -361,6 +333,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QSlider" name="horizontalSlider">
+       <property name="maximum">
+        <number>2</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>

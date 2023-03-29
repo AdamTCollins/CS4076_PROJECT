@@ -2,6 +2,7 @@
 #define RECIPECONFIRMATION_H
 
 #include <QDialog>
+#include <QPushButton>
 
 namespace Ui {
 class RecipeConfirmation;
@@ -16,6 +17,8 @@ public:
     RecipeConfirmation(QString recipeName);
     ~RecipeConfirmation();
 
+private slots:
+    void on_pushButton_clicked();
 
 private:
     Ui::RecipeConfirmation *ui;
