@@ -24,23 +24,22 @@ Destructors ✓
 Memory management ✓
 Header files (inclusion guards) ✓
 Private, Public, Protected ✓
-
+Global variables ✓
 
 
 Virtual functions
 Template classes
 Multiple inheritance
-Programmer defined exception
-Unions
+Programmer defined exception - new class, when recipe name is empty
+Unions - not happening pal
 Operator overloading
 Copy constructors (deep , shallow copy)
-Bit structures
+Bit structures - not happening either
 C++ Object Construction Sequence
 Initializer List - consumable class
 C++ References
 Inheritance - consumable class
 Arrays and pointers ??
 Friendship - maybe food and allergy class or seomthign
-Global variables
 
 */

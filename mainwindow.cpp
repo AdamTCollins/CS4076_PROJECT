@@ -2,6 +2,9 @@
 #include "./ui_mainwindow.h"
 #include "recipeconfirmation.h"
 
+// Global Variable
+int difficulty = 0;
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -20,7 +23,8 @@ void MainWindow::on_pushButton_clicked()
 {
     RecipeConfirmation *popup = new RecipeConfirmation(ui->textEdit_2->toPlainText(),
                                                        ui->textEdit->toPlainText(),
-                                                       ui->radioButton->isChecked());
+                                                       ui->radioButton->isChecked(),
+                                                       difficulty);
     popup->setModal(true);
     popup->exec();
     delete popup; // Memory Management
@@ -34,6 +38,8 @@ void MainWindow::on_pushButton_clicked()
     ui->radioButton_2->setAutoExclusive(false);
     ui->radioButton_2->setChecked(false);
     ui->radioButton_2->setAutoExclusive(true);
+
+    ui->horizontalSlider->setValue(0);
 }
 
 
@@ -56,5 +62,11 @@ void MainWindow::on_pushButton_2_clicked()
 void MainWindow::on_radioButton_2_clicked()
 {
    bool vegetarian = false;
+}
+
+
+void MainWindow::on_horizontalSlider_valueChanged(int value)
+{
+    difficulty = value;
 }
 
