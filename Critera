@@ -27,19 +27,19 @@ Private, Public, Protected ✓
 Global variables ✓
 Programmer defined exception ✓
 Friendship ✓
+Inheritance ✓
 
 
 Virtual functions
 Template classes
 Multiple inheritance
-Unions - not happening pal
+Unions
 Operator overloading
-Copy constructors (deep , shallow copy) shallow ✓ deep ?
-Bit structures - not happening either
+Copy constructors (deep , shallow copy) shallow ✓
+Bit structures
 C++ Object Construction Sequence
-Initializer List - consumable class
+Initializer List
 C++ References
-Inheritance - consumable class
 Arrays and pointers
 
 

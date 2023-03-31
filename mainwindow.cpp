@@ -31,7 +31,7 @@ void MainWindow::on_pushButton_clicked()
         }
     } catch(emptytitle *e) {
         QMessageBox m;
-        m.about(this, "Error", "Enter the name of the recipe.");
+        m.about(this, "Error", "Enter a title for the recipe.");
         m.show();
         return;
     }
@@ -184,7 +184,7 @@ void MainWindow::on_checkBox_12_stateChanged(int arg1)
 
 void MainWindow::on_actiongithub_triggered()
 {
-    QUrl url("https://github.com/AdamTCollins");
+    QUrl url("https://github.com/AdamTCollins/CS4076_PROJECT");
             QDesktopServices::openUrl(url);
 }
 

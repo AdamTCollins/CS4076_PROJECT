@@ -26,6 +26,8 @@ set(PROJECT_SOURCES
         consumable.h
         emptytitle.cpp
         emptytitle.h
+        food.cpp
+        food.h
         ${TS_FILES}
 )
 
