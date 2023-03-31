@@ -56,6 +56,12 @@ private slots:
 
     void on_checkBox_12_stateChanged(int arg1);
 
+    void on_actiongithub_triggered();
+
+    void on_actionLinkedIn_triggered();
+
+    void on_actionYoutube_triggered();
+
 private:
     Ui::MainWindow *ui;
 };

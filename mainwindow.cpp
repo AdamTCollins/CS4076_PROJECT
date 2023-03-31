@@ -2,6 +2,7 @@
 #include "./ui_mainwindow.h"
 #include "emptytitle.h"
 #include "recipeconfirmation.h"
+#include <QDesktopServices>
 
 // Global Variable
 int difficulty = 0;
@@ -178,5 +179,26 @@ void MainWindow::on_checkBox_11_stateChanged(int arg1)
 void MainWindow::on_checkBox_12_stateChanged(int arg1)
 {
     bool almondsI = true;
+}
+
+
+void MainWindow::on_actiongithub_triggered()
+{
+    QUrl url("https://github.com/AdamTCollins");
+            QDesktopServices::openUrl(url);
+}
+
+
+void MainWindow::on_actionLinkedIn_triggered()
+{
+    QUrl url("https://www.linkedin.com/in/adam-collins-17a32724a/");
+            QDesktopServices::openUrl(url);
+}
+
+
+void MainWindow::on_actionYoutube_triggered()
+{
+    QUrl url("https://www.youtube.com/channel/UCUSD6gUPV9lmfQ234lXSQZQ");
+            QDesktopServices::openUrl(url);
 }
 
