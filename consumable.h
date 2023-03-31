@@ -9,6 +9,9 @@ class consumable
 {
 
 public:
+    // Friendship
+    friend class emptytitle;
+
     consumable(){
         name = new string();
     }

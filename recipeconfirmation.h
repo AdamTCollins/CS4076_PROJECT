@@ -14,7 +14,15 @@ class RecipeConfirmation : public QDialog
 
 public:
     explicit RecipeConfirmation(QWidget *parent = nullptr);
-    RecipeConfirmation(QString recipeName, QString instructions, bool vegetarian, int value);
+    RecipeConfirmation(QString recipeName, QString instructions,
+                       bool vegetarian, int value,
+                       bool gluten, bool peanuts,
+                       bool fish, bool eggsA,
+                       bool milkA, bool almondsA,
+                       bool flour, bool sugar,
+                       bool butter, bool eggsI,
+                       bool milkI, bool almondsI);
+
     ~RecipeConfirmation();
 
 private slots:

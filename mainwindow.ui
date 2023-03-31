@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>684</width>
-    <height>460</height>
+    <height>446</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -116,13 +116,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_3">
-     <item row="0" column="0">
-      <widget class="QCheckBox" name="checkBox_1">
-       <property name="text">
-        <string>Gluten</string>
-       </property>
-      </widget>
-     </item>
      <item row="2" column="0">
       <widget class="QCheckBox" name="checkBox_3">
        <property name="text">
@@ -155,6 +148,16 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <widget class="QCheckBox" name="checkBox_2">
        <property name="text">
         <string>Peanuts</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_1">
+       <property name="text">
+        <string>Gluten</string>
+       </property>
+       <property name="tristate">
+        <bool>false</bool>
        </property>
       </widget>
      </item>
@@ -283,9 +286,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>20</y>
+      <y>10</y>
       <width>271</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -300,7 +303,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <x>7</x>
        <y>5</y>
        <width>251</width>
-       <height>31</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="text">
@@ -362,9 +365,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>370</y>
-      <width>100</width>
+      <x>569</x>
+      <y>360</y>
+      <width>101</width>
       <height>32</height>
      </rect>
     </property>

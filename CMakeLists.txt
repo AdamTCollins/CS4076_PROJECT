@@ -24,6 +24,8 @@ set(PROJECT_SOURCES
         recipeconfirmation.ui
         consumable.cpp
         consumable.h
+        emptytitle.cpp
+        emptytitle.h
         ${TS_FILES}
 )
 
